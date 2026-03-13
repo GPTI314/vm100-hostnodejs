@@ -1,10 +1,13 @@
 {
-  "name": "vm100-hostnodejs1",
+  "name": "vm100-hostnodejs",
   "version": "1.0.0",
-  "description": "Hostinger Node.js app 1 — VM100 sovereign deployment",
+  "description": "Hostinger Node.js app 1",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
   },
   "engines": {
     "node": ">=18.0.0"
